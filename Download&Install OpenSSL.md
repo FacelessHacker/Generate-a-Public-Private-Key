@@ -1,5 +1,6 @@
 # Download, Install & Execute OpenSSL on Windows 11
 
+## Download Openssl File
 
 Click on the link below to download OpenSSL binary Zip file
 https://sourceforge.net/projects/openssl/files/
@@ -18,25 +19,26 @@ https://sourceforge.net/projects/openssl/files/
 
 ![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(56).png)
 
-## Setting OpenSSL_Conf file
+
+## Setting OpenSSL_Conf file on Windows
 
 - On your file Explorer, right Click on 'This Pc'
 
 - Right Click on Properties
 
-![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(57).png)
+![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(57).png)
 
 - Under system about window, click on 'Advanced System Settings'
 
 
-![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(60).png)
+![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(60).png)
 
 - System Properties box will appear
 
 - Click on Environment Variables
 
 
-![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(61).png)
+![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(61).png)
 
 
 - System Properties box will appear with 2 segments: user variables for admin & System Variables
@@ -47,7 +49,7 @@ https://sourceforge.net/projects/openssl/files/
 - Click on edit
 
 
-![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screoenshot%20(62).png)
+![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screoenshot%20(62).png)
 
 
 - On the edit environment variable box,
@@ -58,14 +60,14 @@ https://sourceforge.net/projects/openssl/files/
 
 - Click on Okay
 
-![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(63).png)
+![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(63).png)
 
 
 - Go back to the previous box
 
 - Under System Variables, click on 'New'
 
-![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(64).png)
+![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(64).png)
 
 - A box will appear,
 
@@ -76,14 +78,23 @@ https://sourceforge.net/projects/openssl/files/
  
  - Click okay
  
-![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(65).png)
+![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(65).png)
 
 
 The Settings is done!
 
-![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(66).png)
+![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(66).png)
 
-![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(67).png)
+![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(67).png)
 
+## Execute OpenSSL through the Command Prompt
 
+- Open cmd
+- Type the below in the terminal to confirm OpenSSL successful installation
+
+```
+
+openssl version
+
+```
 
