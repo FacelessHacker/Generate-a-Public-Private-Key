@@ -20,4 +20,23 @@ Open your explorer to check the chosen location for the OpenSSL file
 
 ### Setting OpenSSL_Conf file
 
+![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(57).png)
+
+![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(60).png)
+
+![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(61).png)
+
+![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(62).png)
+
+![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(63).png)
+
+![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(64).png)
+
+![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(65).png)
+
+![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(66).png)
+
+![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(67).png)
+
+
 
