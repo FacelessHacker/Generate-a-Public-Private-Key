@@ -31,7 +31,6 @@ https://sourceforge.net/projects/openssl/files/
 
 ![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(60).png)
 
-
 - System Properties box will appear
 
 - Click on Environment Variables
