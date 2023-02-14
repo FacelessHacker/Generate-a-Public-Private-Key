@@ -8,31 +8,79 @@ https://sourceforge.net/projects/openssl/files/
 ![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(54).png)
 
 
-Open the downloaded zip file and extract to your preferred location
-Click OKay
+- Open the downloaded zip file and extract to your preferred location
+- Click OKay
 
 ![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(55).png)
 
 
-Open your explorer to check the chosen location for the OpenSSL file
+- Open your explorer to check the chosen location for the OpenSSL file
 
 ![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(56).png)
 
-### Setting OpenSSL_Conf file
+## Setting OpenSSL_Conf file
+
+- On your file Explorer, right Click on 'This Pc'
+
+- Right Click on Properties
 
 ![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(57).png)
 
+- Under system about window, click on 'Advanced System Settings'
+
+
 ![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(60).png)
+
+
+- System Properties box will appear
+
+- Click on Environment Variables
+
 
 ![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(61).png)
 
-![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(62).png)
+
+- System Properties box will appear with 2 segments: user variables for admin & System Variables
+
+
+- Choose on 'Path' under 'User variables for admin
+
+- Click on edit
+
+
+![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screoenshot%20(62).png)
+
+
+- On the edit environment variable box,
+
+- Choose New
+
+- Enter the full path of the OpenSSL file (C:\OpenSSL\bin)
+
+- Click on Okay
 
 ![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(63).png)
 
+
+- Go back to the previous box
+
+- Under System Variables, click on 'New'
+
 ![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(64).png)
 
+- A box will appear,
+
+- Enter the Variable name (OPENSSL_CONF)
+
+- Enter the Variable Value - that is, the full path of openssl.cnf file
+ (C:\OpenSSL\bin\openssl.cnf)
+ 
+ - Click okay
+ 
 ![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(65).png)
+
+
+The Settings is done!
 
 ![UI Images](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/Screenshot%20(66).png)
 
