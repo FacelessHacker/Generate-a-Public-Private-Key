@@ -1,4 +1,4 @@
-# How to Generate a Public\Private Key & Encrypt\Decrypt Using Both Keys With OpenSSL on Linux
+# Generate a Public\Private Key & Encrypt\Decrypt Using Both Keys With OpenSSL on Linux
 
 ### Generating Public & Private Keys on Linux
 ##### Step 1
@@ -17,7 +17,10 @@
 
 ##### Encrypting & Decrypting a File/Word
 - You can write something in a file, save it, encrypt it and try to decrypt it again using the earlier generated private and public keys.
-- For example, echo "hello-world"> plaintext
-
+- For example, we can use this command to write 'hello-world' and save in into a file named as plaintext.
+- 
+  ```
+  echo "hello-world"> plaintext
+  ```
 
 ![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/1.png)
