@@ -26,17 +26,17 @@
   ```
   echo "hello-world"> plaintext
   ```
- - Use the 'ls' command to check the file just created in the directory you are.
- - The next thing is to encrpt the file created using this command.
+- Use the 'ls' command to check the file just created in the directory you are.
+- The next thing is to encrpt the file created using this command.
  
   ```
   openssl pkeyutl -encrypt -in plaintext -out encryptplaintext -inkey public-key.pem -pubin
   ```
  
- The break down of the command for better understanding is 
- openssl pkeyutl -encrypt -in (name of the file to encrypt) -out (name to save the encrypted file as) -inkey (name of the publickey         earlier generated) -pubin
+  The break down of the command for better understanding is 
+  openssl pkeyutl -encrypt -in (name of the file to encrypt) -out (name to save the encrypted file as) -inkey (name of the publickey         earlier generated) -pubin
  
- - You can as well use the 'ls' command to see the just created encrypted file. In this write-up, it is saved as 'encryptplaintext' and the 'cat' command as well to view the content. You will see that the content is no longer in plain text.
+- You can as well use the 'ls' command to see the just created encrypted file. In this write-up, it is saved as 'encryptplaintext' and the 'cat' command as well to view the content. You will see that the content is no longer in plain text.
  
  ![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/2.png)
  
@@ -47,8 +47,8 @@
   ```
   
   openssl pkeyutl -decrypt -in (the encrypted file name) -inkey (the private key earlier generated) -out (the name to save the decrypted     file as.
- - Use the 'ls' command the check the decrypted file saved as 'decryptplaintext'
- - Use 'cat' command to view the content of the file. 
+- Use the 'ls' command the check the decrypted file saved as 'decryptplaintext'
+- Use 'cat' command to view the content of the file. 
   ```
   cat decryptedplaintext
   ```
