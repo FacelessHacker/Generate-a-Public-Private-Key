@@ -32,5 +32,17 @@
  openssl pkeyutl -encrypt -in plaintext -out encryptplaintext -inkey public-key.pem -pubin
  ```
  
+ The break down of the command for better understanding is 
+ openssl pkeyutl -encrypt -in (name of the file to encrypt) -out (name to save the encrypted file as) -inkey (name of the publickey earlier generated) -pubin
+ 
+ - You can as well use the 'ls' command to see the just created encrypted file. In this write-up, it is saved as 'encryptplaintext' and the 'cat' command as well to view the content. You will see that the content is no longer in plain text.
+ 
  ![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/2.png)
  
+- Use the command below to decrypt the encrpted file back to the original form to be able to read the content of the file.
+
+  ```
+  openssl rsa -decrypt -in encryptplaintext -out decryptplaintext -inkey private-key.pem -pubin
+  ```
+  
+   ![UI Image](https://github.com/FacelessHacker/Generate-a-Public-Private-Key/blob/main/3.png)
